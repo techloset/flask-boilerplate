@@ -11,7 +11,7 @@ The directory structure that I recommend is:
 ### A typical top-level directory layout
 
     ├── application
-    │ ├── __init__.py 
+    │   ├── __init__.py 
     ├── test                    # Test files (alternatively `spec` or `tests`)
     │   ├── __init__.py
     ├── manage.py             
