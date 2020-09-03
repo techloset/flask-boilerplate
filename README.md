@@ -10,7 +10,7 @@ The directory structure that We recommend is:
 
 <!-- ### A typical top-level directory layout -->
 
-    ├── README.md
+    
     ├── application
     │   ├── __init__.py
     │   ├── admin
@@ -59,6 +59,7 @@ The directory structure that We recommend is:
     ├── tests
     │   └── __init__.py
     ├── manage.py
+    ├── README.md
     └── requirements.txt
 
 ![Screenshot](structure.png)
