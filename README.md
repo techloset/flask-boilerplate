@@ -14,15 +14,33 @@ The directory structure that We recommend is:
     ├── application
     │   ├── __init__.py
     │   ├── admin
+    │   │   ├── admin
+    │   │   │    └── __init__.py
+    │   │   ├── auth
+    │   │   │    └── __init__.py
+    │   │   ├── orders
+    │   │   │    └── __init__.py
+    │   │   ├── users
+    │   │   │    └── __init__.py
     │   │   └── __init__.py
     │   ├── helpers
     │   │   └── __init__.py
     │   ├── utils
     │   │   └── __init__.py
     │   ├── webapp
+    │   │   ├── auth
+    │   │   │    └── __init__.py
+    │   │   ├── orders
+    │   │   │    └── __init__.py
+    │   │   ├── products
+    │   │   │    └── __init__.py
+    │   │   ├── users
+    │   │   │    └── __init__.py
     │   │   └── __init__.py
+    │   │   
     │   └── wrappers
     │       └── __init__.py
+    │
     ├── config
     │   ├── __init__.py
     │   ├── default.py
