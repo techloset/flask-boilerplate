@@ -56,7 +56,7 @@ The directory structure that We recommend is:
     │   └── __init__.py
     ├── templates
     │   └── __init__.py
-    ├── tests
+    ├── tests                                   # Test files (alternatively `spec` or `tests`)
     │   └── __init__.py
     ├── manage.py
     ├── README.md
