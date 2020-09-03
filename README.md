@@ -12,7 +12,6 @@ The directory structure that We recommend is:
 
     
     ├── application
-    │   ├── __init__.py
     │   ├── admin
     │   │   ├── admin
     │   │   │    └── __init__.py
@@ -38,8 +37,9 @@ The directory structure that We recommend is:
     │   │   │    └── __init__.py
     │   │   └── __init__.py
     │   │   
-    │   └── wrappers
-    │       └── __init__.py
+    │   ├── wrappers
+    │   │   └── __init__.py
+    │   └── __init__.py
     │
     ├── config
     │   ├── __init__.py
