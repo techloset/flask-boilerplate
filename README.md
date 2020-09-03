@@ -13,38 +13,34 @@ The directory structure that We recommend is:
     ├── README.md
     ├── application
     │   ├── __init__.py
-    │   ├── controllers
+    │   ├── admin
     │   │   └── __init__.py
-    │   ├── forms
+    │   ├── helpers
     │   │   └── __init__.py
-    │   ├── models
+    │   ├── utils
     │   │   └── __init__.py
-    │   ├── services
+    │   ├── webapp
     │   │   └── __init__.py
-    │   ├── static
-    │   │   └── __init__.py
-    │   ├── templates
-    │   │   └── __init__.py
-    │   └── utils
+    │   └── wrappers
     │       └── __init__.py
     ├── config
     │   ├── __init__.py
     │   ├── default.py
     │   ├── development.py
-    │   ├── development_sample.py
     │   ├── production.py
-    │   ├── production_sample.py
     │   └── testing.py
     ├── deploy
     │   ├── flask_env.sh
     │   ├── gunicorn.conf
     │   ├── nginx.conf
     │   └── supervisor.conf
-    ├── manage.py
-    ├── pylintrc
-    ├── requirements.txt
+    ├── static
+    │   └── __init__.py
+    ├── templates
+    │   └── __init__.py
     ├── tests
     │   └── __init__.py
-    └── wsgi.py
+    ├── manage.py
+    └── requirements.txt
 
 ![Screenshot](structure.png)
